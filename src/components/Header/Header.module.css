@@ -1,0 +1,118 @@
+.header {
+    background-color: #A67C52;
+    color: white;
+  }
+  
+  .topBar {
+    display: flex;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    justify-content: flex-end;
+    padding-right: 7rem;
+  }
+  .nav {
+  background-color: #FAF6F2;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  flex-direction: row-reverse;
+  gap: 1rem; 
+}
+
+.logo {
+  color: #A67C52;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-family: serif;
+  order: -1;
+  margin-left: auto; 
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid #A67C52;
+  order: 0; 
+  margin-left: 0; 
+}
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #A67C52;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    margin-left: 1rem;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 1rem;
+    color: #A67C52;
+    font-size: 1.125rem;
+    order: 1; 
+  }
+  
+  /* بقية الأنماط بدون تغيير */
+  .searchInput {
+    padding: 0.5rem;
+    outline: none;
+    color: black;
+    width: 16rem;
+    border: none;
+  }
+  
+  .searchButton {
+    background-color: #A67C52;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .profileName {
+    color: black;
+  }
+  
+  .profileImage {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .socialButton {
+    background-color: #FDF6EE;
+    padding: 0.75rem;
+    border-radius: 50%;
+    border: 1px solid #A67C52;
+    color: #A67C52;
+    cursor: pointer;
+  }
+  
+ .menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin-top: 0.005rem;
+  padding: 0.005rem 0;
+  border-bottom: 0.05rem solid #A67C52; 
+}
+  
+  .menuLink {
+    color: #A67C52;
+    font-size: 1.125rem;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .menuLink:hover {
+    color: black;
+  }
