@@ -10,7 +10,7 @@ const Header = () => {
         <span >تتبع شحنتك</span>
       </div>
 
-      {/* شريط التنقل الرئيسي */}
+      {/* شريط التنقل الرئيسي ززز*/}
       <nav className={styles.nav}>
         {/* الشعار */}
         <h1 className={styles.logo}>تراثنا</h1>
