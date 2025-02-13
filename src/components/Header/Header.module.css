@@ -1,4 +1,6 @@
 .header {
+  position: relative;
+  height: 150px;
     background-color: #A67C52;
     color: white;
   }
@@ -12,7 +14,7 @@
   }
   .nav {
   background-color: #FAF6F2;
-  padding: 1rem;
+  padding: 1.7rem;
   display: flex;
   align-items: center;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -22,7 +24,7 @@
 
 .logo {
   color: #A67C52;
-  font-size: 1.875rem;
+  font-size: 2.4rem;
   font-weight: bold;
   font-family: serif;
   order: -1;
@@ -32,27 +34,31 @@
 .searchContainer {
   display: flex;
   align-items: center;
+  height:40px;
   background-color: white;
-  padding: 0.5rem;
-  border-radius: 9999px;
+  border-radius: 15px;
   border: 1px solid #A67C52;
   order: 0; 
-  margin-left: 0; 
+  margin-left:15rem; 
 }
   
   .profile {
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    width:130px;
+    height:40px;
+    align-items: center;  
     border: 1px solid #A67C52;
-    border-radius: 9999px;
+    border-radius: 15px;
     padding: 0.5rem 1rem;
     background-color: white;
-    margin-left: 1rem;
+    margin-left: 15rem;
   }
   
   .socialIcons {
     display: flex;
+    align-items: center;
+    margin-left:1rem;
+    border-radius: 100%;
     gap: 1rem;
     color: #A67C52;
     font-size: 1.125rem;
@@ -61,7 +67,10 @@
   
   /* بقية الأنماط بدون تغيير */
   .searchInput {
-    padding: 0.5rem;
+    padding: 0.4rem;
+    border-radius: 15px;
+    padding-left:5rem;
+    margin-left:2rem;
     outline: none;
     color: black;
     width: 16rem;
@@ -72,20 +81,24 @@
     background-color: #A67C52;
     color: white;
     padding: 0.5rem 1rem;
-    border-radius: 9999px;
+    border-radius: 15px;
     border: none;
     cursor: pointer;
   }
   
   .profileName {
     color: black;
+    padding-left:0.5rem;
   }
   
   .profileImage {
-    width: 2rem;
-    height: 2rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left:2rem;
+  
     border-radius: 50%;
     object-fit: cover;
+
   }
   
   .socialButton {
@@ -97,22 +110,28 @@
     cursor: pointer;
   }
   
- .menu {
-  display: flex;
-  justify-content: flex-end;
-  gap: 2rem;
-  margin-top: 0.005rem;
-  padding: 0.005rem 0;
-  border-bottom: 0.05rem solid #A67C52; 
-}
+  .menu {
+    position: sticky;
+    bottom: 0px; /* البعد من أسفل الهيدر */
+margin-bottom:5rem;
+padding-bottom:5rem;
+    padding-left: 95rem;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px; /* المسافة بين العناصر */
+    justify-content: center;
+    width: 100%;
+    max-width: 600px; /* حسب احتياجك */
+  }
   
   .menuLink {
-    color: #A67C52;
-    font-size: 1.125rem;
-    font-weight: 600;
-    transition: color 0.3s;
+    color: #333; /* لون النص */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: 0.3s;
   }
-  
   .menuLink:hover {
-    color: black;
+    color: #A67C52; /* لون النص عند الهوفر */
   }
+ 
